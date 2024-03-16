@@ -17,8 +17,7 @@ driver.get(f"https://twitter.com/{account_username}")
 input("Log in manually in the opened browser window and press Enter here...")
 
 # Number of tweets you want to fetch
-# Twitter now has a 500 read limit for newly created accounts
-# 1k for old accounts and 10k for the verfied accounts
+# Read readme.md before setting up the number
 NUM_TWEETS_TO_FETCH = 500
 
 tweets_data = []
